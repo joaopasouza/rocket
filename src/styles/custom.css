@@ -1,0 +1,12 @@
+.content-wrapper {
+  min-height: calc(100vh - 51px);
+}
+
+.main-header .sidebar-toggle {
+  border: 0;
+  outline: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
