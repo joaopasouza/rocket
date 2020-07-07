@@ -6,7 +6,7 @@ export const getData = async () => {
     let date = moment(new Date()).format('YYYY-MM-DD');
     const response = await api.get('/apod', {
       params: {
-        api_key: 'u9IQsVELqAV4ajPMkjUEqlxyfAS6cbyJ4rrxCNvc',
+        api_key: process.env.REACT_APP_NASA_API_KEY,
         date: date,
       },
     });
