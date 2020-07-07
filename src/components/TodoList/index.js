@@ -12,7 +12,7 @@ function TodoList() {
 
   useEffect(() => {
     dispatch(list());
-  }, [dispatch]);
+  });
 
   const handleUpdate = (id) => {
     getTodo(id).then((resp) => {
